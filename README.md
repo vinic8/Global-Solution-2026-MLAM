@@ -12,10 +12,12 @@ central, dispersão e separatrizes) e o relatório/interpretação consolidado.
 
 ---
 
-## ▶ Como executar no Google Colab
+## Como executar no Google Colab
+
+- **Antes de seguir os passos baixe o notebook desse repositorio `analise_missoes_espaciais(1).ipynb`**
 
 1. Acesse <https://colab.research.google.com> e faça **Arquivo ▸ Carregar notebook**
-   (*File ▸ Upload notebook*), selecionando `analise_missoes_espaciais.ipynb`.
+   (*File ▸ Upload notebook*), selecionando `analise_missoes_espaciais(1).ipynb`.
 2. Envie a base de dados para a sessão: clique no ícone de **pasta** ("Arquivos") na
    barra lateral esquerda e faça **upload** do arquivo `space_missions1.csv` (botão de
    upload ou arrastando o arquivo).
