@@ -12,6 +12,30 @@ central, dispersão e separatrizes) e o relatório/interpretação consolidado.
 
 ---
 
+## ▶ Como executar no Google Colab
+
+1. Acesse <https://colab.research.google.com> e faça **Arquivo ▸ Carregar notebook**
+   (*File ▸ Upload notebook*), selecionando `analise_missoes_espaciais.ipynb`.
+2. Envie a base de dados para a sessão: clique no ícone de **pasta** ("Arquivos") na
+   barra lateral esquerda e faça **upload** do arquivo `space_missions1.csv` (botão de
+   upload ou arrastando o arquivo).
+3. **Copie o caminho** do arquivo: clique nos três pontinhos ao lado dele e escolha
+   *Copiar caminho* (geralmente `/content/space_missions1.csv`).
+4. Na célula **"Carregamento da base de dados"**, **cole o caminho** entre as aspas da
+   variável `CAMINHO_CSV`.
+5. Clique em **Ambiente de execução ▸ Executar tudo** (*Runtime ▸ Run all*).
+
+As bibliotecas utilizadas (`pandas`, `numpy`, `matplotlib`) já vêm pré-instaladas no
+Colab — não é preciso instalar nada. As tabelas são exibidas com o recurso de **tabela
+interativa do Colab**, que permite ordenar e filtrar as colunas diretamente na saída.
+
+> Para rodar localmente (Jupyter), aponte `CAMINHO_CSV` para o caminho do arquivo na sua
+> máquina (por exemplo, apenas `"space_missions1.csv"` se estiver na mesma pasta). Se
+> faltar alguma biblioteca, descomente a linha `# !pip install pandas numpy matplotlib`
+> na primeira célula de código.
+
+---
+
 ## A base de dados (real, não simulada)
 
 | Item | Descrição |
